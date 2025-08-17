@@ -40,8 +40,11 @@ Inside the Docker container, create a folder to store input files:
 mkdir -p /mutapheno/input_folder
 ```
 Alternatively, use the predefined directory: `/mutapheno/mutapheno_input` for input file storage. 
+
 Prepare input mutations in one of the following formats:
- (1) UniProt (default): 
+
+**(1) UniProt (default):**
+
 Input example (example_uniprot.csv):
 ```
 P21359-2|R1276P
@@ -49,34 +52,36 @@ P04637|H178Q
 P27986|G376R
 P04637|I251S
 ```
-Command:
+**Command:**
 ```
 python MutaPheno.py \
   --input /mutapheno/mutapheno_input/example_uniprot.csv \
   --input_mutatype UniProt \
   --output /mutapheno/mutapheno_output
 ```
-(2) Ensembl (Transcript/Protein): 
+**(2) Ensembl (Transcript/Protein):**
+
 ```
 Input example (example_ensembl.csv):
 ENST00000227163|P127T
 ENST00000334192|A287T
 ENSP00000366506|V39I
 ```
-Command:
+**Command:**
 ```
 python MutaPheno.py \
   --input /mutapheno/mutapheno_input/example_ensembl.csv \
   --input_mutatype Ensembl \
   --output /mutapheno/mutapheno_output
 ```
- (3) RefSeq (Transcript/Protein): 
+**(3) RefSeq (Transcript/Protein):**
+
 Input example (example_refseq.csv):
 ```
 NM_000267|R1276P
 NP_722540|D18T
 ```
-Command:
+**Command:**
 ```
 python MutaPheno.py \
   --input /mutapheno/mutapheno_input/example_refseq.csv \
