@@ -7,7 +7,6 @@ Using an optimized random forest classifier trained through extensive grid searc
 The tool accepts a list of missense mutations with corresponding protein identifiers and outputs:、
 
 •	Pathogenicity predictions (probabilities and binary labels)
-
 •	Detailed feature annotations
 
 Benchmarking demonstrates MutaPheno's superior accuracy and interpretability compared to existing methods, establishing it as a general-purpose predictor for both inherited disease and cancer mutations.
