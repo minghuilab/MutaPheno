@@ -3,29 +3,27 @@
 ## About
 MutaPheno is an interpretable machine learning tool designed to predict both pathogenic and cancer driver missense mutations. It integrates 34 molecular phenotype-based features across three biological levels: residue, mutation, and protein, spanning structural, functional, physicochemical, and contextual dimensions. 
 Using an optimized random forest classifier trained through extensive grid search and cross-validation, MutaPheno delivers robust and generalizable performance. By quantifying feature pattern enrichment between pathogenic and benign mutations via log₁₀ odds ratios, the tool achieves both high interpretability and strong predictive power.
-The tool accepts a list of missense mutations with corresponding protein identifiers and outputs:  
+The tool accepts a list of missense mutations with corresponding protein identifiers and outputs:
+
 •	Pathogenicity predictions (probabilities and binary labels)  
-•	Detailed feature annotations  
+•	Detailed feature annotations
+
 Benchmarking demonstrates MutaPheno's superior accuracy and interpretability compared to existing methods, establishing it as a general-purpose predictor for both inherited disease and cancer mutations.
 
 ## MutaPheno Installation and Usage Instructions
 ### 1.	Pull Docker Image
-Ensure Docker is installed: 
-
+Ensure Docker is installed:   
 Docker Installation Guide 
 (https://docs.docker.com/get-started/get-docker/)
 ```
 docker pull minghuilab/mutapheno:v1
 ```
 
-•  Image size: 68.5 GB
-
+•  Image size: 68.5 GB  
 •  Estimated download time (approximate):
 
-> 100 Mbps: ~90 min
-   
-> 1 Gbps: ~9 min
-   
+> 100 Mbps: ~90 min    
+> 1 Gbps: ~9 min  
 > (actual time depends on your network speed)
 
 ### 2.	Run the Docker Container and Activate Environment
@@ -130,9 +128,7 @@ P04637|I251S	P04637_I251S	0.889231	1
 
 **•	Feature Contribution (`*_MutaPheno_feature_SHAP.csv`):**
 
-&ensp•	Contains feature SHAP data for each mutation.
-  
-&ensp•	**SHAP (SHapley Additive exPlanations) values** quantify the contribution of each feature to the model’s prediction. A positive SHAP value indicates that the feature increases the likelihood of the predicted outcome, whereas a negative SHAP value suggests it decreases the likelihood.
+Contains feature SHAP data for each mutation. **SHAP (SHapley Additive exPlanations) values** quantify the contribution of each feature to the model’s prediction. A positive SHAP value indicates that the feature increases the likelihood of the predicted outcome, whereas a negative SHAP value suggests it decreases the likelihood.
 
 ### 5.	Recommended System Requirements
 
