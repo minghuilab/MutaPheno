@@ -13,7 +13,9 @@ Benchmarking demonstrates MutaPheno's superior accuracy and interpretability com
 
 ## MutaPheno Installation and Usage Instructions
 ### 1.	Pull Docker Image
-Ensure Docker is installed: Docker Installation Guide 
+Ensure Docker is installed: 
+
+Docker Installation Guide 
 (https://docs.docker.com/get-started/get-docker/)
 ```
 docker pull minghuilab/mutapheno:v1
