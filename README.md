@@ -110,11 +110,11 @@ Do not mix formats. Verify mutation identifiers, residue positions, and amino ac
 ### 4.	Understanding Output Files
 After running, two main outputs will be produced in the specified output directory:
 
-**•	Feature Annotation (`*_MutaPheno_FeatureAnnotations.csv`):**
+**(1) Feature Annotation (`*_MutaPheno_FeatureAnnotations.csv`):**
 
 Contains raw feature annotation data for each mutation.
 
-**•	Prediction Results (`*_MutaPheno_Predictions.csv`):**
+**(2) Prediction Results (`*_MutaPheno_Predictions.csv`):**
 ```
 Original_Mutation	Canonical_Mutation	MutaPheno_score	MutaPheno_label
 P21359-2|R1276P	P21359_R1276P	0.532308	1
@@ -122,11 +122,11 @@ P04637|H178Q	P04637_H178Q	0.563077	1
 P27986|G376R	P27986_G376R	0.830769	1
 P04637|I251S	P04637_I251S	0.889231	1
 ```
-   •	**MutaPheno_score:** Probability of pathogenicity (0–1)
+•	**MutaPheno_score:** Probability of pathogenicity (0–1)
   
-   •	**MutaPheno_label:** Binary pathogenicity classification (threshold=0.5)
+•	**MutaPheno_label:** Binary pathogenicity classification (threshold=0.5)
 
-**•	Feature Contribution (`*_MutaPheno_feature_SHAP.csv`):**
+**(3) Feature Contribution (`*_MutaPheno_feature_SHAP.csv`):**
 
 Contains feature SHAP data for each mutation. **SHAP (SHapley Additive exPlanations) values** quantify the contribution of each feature to the model’s prediction. A positive SHAP value indicates that the feature increases the likelihood of the predicted outcome, whereas a negative SHAP value suggests it decreases the likelihood.
 
