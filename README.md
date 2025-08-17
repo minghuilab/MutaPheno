@@ -25,11 +25,11 @@ docker pull minghuilab/mutapheno:v1
 
 •  Estimated download time (approximate):
 
->•	100 Mbps: ~90 min
+> 100 Mbps: ~90 min
    
->•	1 Gbps: ~9 min
+> 1 Gbps: ~9 min
    
-(actual time depends on your network speed)
+> (actual time depends on your network speed)
 
 ### 2.	Run the Docker Container and Activate Environment
 ```
