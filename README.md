@@ -122,9 +122,9 @@ P04637|H178Q	P04637_H178Q	0.563077	1
 P27986|G376R	P27986_G376R	0.830769	1
 P04637|I251S	P04637_I251S	0.889231	1
 ```
-&ensp•	**MutaPheno_score:** Probability of pathogenicity (0–1)
+   •	**MutaPheno_score:** Probability of pathogenicity (0–1)
   
-&ensp•	**MutaPheno_label:** Binary pathogenicity classification (threshold=0.5)
+   •	**MutaPheno_label:** Binary pathogenicity classification (threshold=0.5)
 
 **•	Feature Contribution (`*_MutaPheno_feature_SHAP.csv`):**
 
