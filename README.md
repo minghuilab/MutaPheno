@@ -24,8 +24,11 @@ docker pull minghuilab/mutapheno:v1
 •  Image size: 68.5 GB
 
 •  Estimated download time (approximate):
+
    •	100 Mbps: ~90 min
+   
    •	1 Gbps: ~9 min
+   
 (actual time depends on your network speed)
 
 ### 2.	Run the Docker Container and Activate Environment
@@ -46,7 +49,7 @@ Prepare input mutations in one of the following formats:
 
 **(1) UniProt (default):**
 
-Input example (example_uniprot.csv):
+**Input example (`example_uniprot.csv`):**
 ```
 P21359-2|R1276P
 P04637|H178Q
@@ -62,8 +65,8 @@ python MutaPheno.py \
 ```
 **(2) Ensembl (Transcript/Protein):**
 
+**Input example (`example_ensembl.csv`):**
 ```
-Input example (example_ensembl.csv):
 ENST00000227163|P127T
 ENST00000334192|A287T
 ENSP00000366506|V39I
@@ -77,7 +80,7 @@ python MutaPheno.py \
 ```
 **(3) RefSeq (Transcript/Protein):**
 
-Input example (example_refseq.csv):
+**Input example (`example_refseq.csv`):**
 ```
 NM_000267|R1276P
 NP_722540|D18T
@@ -91,7 +94,7 @@ python MutaPheno.py \
 ```
 **(4) Gene Name:** 
 
-Input example (example_gene.csv):
+**Input example (`example_gene.csv`):**
 ```
 BRAF|Y472C
 BRCA1|C24R
@@ -105,7 +108,7 @@ python MutaPheno.py \
   --input_mutatype GeneName \
   --output /mutapheno/mutapheno_output
 ```
-**Important Notes: **
+**Important Notes:**
 
 Do not mix formats. Verify mutation identifiers, residue positions, and amino acid changes. Only validated missense mutations proceed to annotation and prediction. Output Files
 
