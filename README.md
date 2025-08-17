@@ -25,9 +25,9 @@ docker pull minghuilab/mutapheno:v1
 
 •  Estimated download time (approximate):
 
-Tab•	100 Mbps: ~90 min
+&ensp•	100 Mbps: ~90 min
    
-Tab•	1 Gbps: ~9 min
+&ensp•	1 Gbps: ~9 min
    
 (actual time depends on your network speed)
 
@@ -127,19 +127,19 @@ P04637|H178Q	P04637_H178Q	0.563077	1
 P27986|G376R	P27986_G376R	0.830769	1
 P04637|I251S	P04637_I251S	0.889231	1
 ```
-  •	**MutaPheno_score:** Probability of pathogenicity (0–1)
+&ensp•	**MutaPheno_score:** Probability of pathogenicity (0–1)
   
-  •	**MutaPheno_label:** Binary pathogenicity classification (threshold=0.5)
+&ensp•	**MutaPheno_label:** Binary pathogenicity classification (threshold=0.5)
 
 **•	Feature Contribution (`*_MutaPheno_feature_SHAP.csv`):**
 
-  •	Contains feature SHAP data for each mutation.
+&ensp•	Contains feature SHAP data for each mutation.
   
-  •	SHAP (SHapley Additive exPlanations) values quantify the contribution of each feature to the model’s prediction. A positive SHAP value indicates that the feature increases the likelihood of the predicted outcome, whereas a negative SHAP value suggests it decreases the likelihood.
+&ensp•	**SHAP (SHapley Additive exPlanations) values** quantify the contribution of each feature to the model’s prediction. A positive SHAP value indicates that the feature increases the likelihood of the predicted outcome, whereas a negative SHAP value suggests it decreases the likelihood.
 
 ### 5.	Recommended System Requirements
 
-•	RAM: ≥32 GB recommended (≥16 GB minimal requirement)
+•	**RAM:** ≥32 GB recommended (≥16 GB minimal requirement)
 
-•	Disk Space: ≥100 GB (Docker image: ~68.5 GB + additional space for data and output)
+•	**Disk Space:** ≥100 GB (Docker image: ~68.5 GB + additional space for data and output)
 
