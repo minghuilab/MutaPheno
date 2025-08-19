@@ -12,8 +12,6 @@ The **protein-level features** include: Specific domain, Functional class, Subce
 
 Feature matrices and prediction results for the training set and two independent test sets used in the development and evaluation of the MutaPheno model.													
 													
-**Content**	
-
 (1) Feature matrix of the training dataset used to construct the MutaPheno model.  
 
 (2) Feature matrix of the pathogenic independent test set, accompanied by MutaPheno’s prediction results.  
