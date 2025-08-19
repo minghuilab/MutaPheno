@@ -1,4 +1,4 @@
-`example_uniprot.csv`: The input file contain missense mutations.
+`example_uniprot.csv`: The input file contains UniProt missense mutations.
 
 `example_uniprot_MutaPheno_FeatureAnnotations.csv`: Contains raw feature annotation data for each mutation.
 
