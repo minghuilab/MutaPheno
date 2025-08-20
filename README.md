@@ -103,7 +103,7 @@ python MutaPheno.py \
 Do not mix formats. Verify mutation identifiers, residue positions, and amino acid changes. Only validated missense mutations proceed to annotation and prediction. 
 
 ### 4.	Understanding Output Files
-After running, two main outputs will be produced in the specified output directory:
+After running, three outputs will be produced in the specified output directory:
 
 **(1) Feature Annotation (`*_MutaPheno_FeatureAnnotations.csv`):**
 
@@ -120,7 +120,7 @@ P04637|I251S	P04637_I251S	0.889231	1
 •	**MutaPheno_score:** Probability of pathogenicity (0–1)  
 •	**MutaPheno_label:** Binary pathogenicity classification (threshold=0.5)
 
-**(3) Feature Contribution (`*_MutaPheno_feature_SHAP.csv`):**
+**(3) Feature Contribution (`*_MutaPheno_FeatureSHAP.csv`):**
 
 •	**Contains feature SHAP data for each mutation.**   
 •	**SHAP (SHapley Additive exPlanations) values** quantify the contribution of each feature to the model’s prediction. A positive SHAP value indicates that the feature increases the likelihood of the predicted outcome, whereas a negative SHAP value suggests it decreases the likelihood.
