@@ -5,8 +5,6 @@ MutaPheno is an interpretable machine learning tool designed to predict both pat
 Using an optimized random forest classifier trained through extensive grid search and cross-validation, MutaPheno delivers robust and generalizable performance. By quantifying feature pattern enrichment between pathogenic and benign mutations via log₁₀ odds ratios, the tool achieves both high interpretability and strong predictive power.
 The tool accepts a list of missense mutations with corresponding protein identifiers and outputs: Predicted probabilities and binary classifications; Detailed feature annotations.
 
-Benchmarking demonstrates MutaPheno's superior accuracy and interpretability compared to existing methods, establishing it as a general-purpose predictor for both inherited disease and cancer mutations.
-
 ## MutaPheno Installation and Usage Instructions
 ### 1.	Pull Docker Image
 Ensure Docker is installed:   
