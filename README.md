@@ -109,7 +109,7 @@ After running MutaPheno, three types of output files will be generated in the sp
 
 This file contains the raw feature annotation data for each mutation.
 
-**(2) Prediction Results (`*_MutaPheno_Predictions.csv`):**
+**(2) Prediction Results (`*_MutaPheno_Predictions.csv`):**  
 Example content:
 ```
 Original_Mutation	Canonical_Mutation	MutaPheno_score	MutaPheno_label
