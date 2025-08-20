@@ -118,8 +118,8 @@ P04637|H178Q	P04637_H178Q	0.563077	1
 P27986|G376R	P27986_G376R	0.830769	1
 P04637|I251S	P04637_I251S	0.889231	1
 ```
-•	**Original_Mutation:** The mutation identifier as provided in the input file, including isoform-specific or transcript-specific annotations (e.g., P21359-2|R1276P).
-•	**Canonical_Mutation:** The standardized mutation mapped to the canonical protein sequence (e.g., P21359_R1276P).
+•	**Original_Mutation:** The mutation identifier as provided in the input file, including isoform-specific or transcript-specific annotations (e.g., P21359-2|R1276P). 
+•	**Canonical_Mutation:** The standardized mutation mapped to the canonical protein sequence (e.g., P21359_R1276P). 
 •	**MutaPheno_score:** Estimated probability of pathogenicity (range 0–1).  
 •	**MutaPheno_label:** Binary classification of pathogenicity, determined using a threshold of 0.5.
 
