@@ -100,7 +100,7 @@ python MutaPheno.py \
 ```
 **Important Notes:**
 
-Do not mix formats. Verify mutation identifiers, residue positions, and amino acid changes. Only validated missense mutations proceed to annotation and prediction. Output Files
+Do not mix formats. Verify mutation identifiers, residue positions, and amino acid changes. Only validated missense mutations proceed to annotation and prediction. 
 
 ### 4.	Understanding Output Files
 After running, two main outputs will be produced in the specified output directory:
