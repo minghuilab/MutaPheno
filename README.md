@@ -131,5 +131,5 @@ This file contains SHAP (SHapley Additive exPlanations) values for each mutation
 
 •	**RAM:** ≥32 GB recommended (≥16 GB minimal requirement)
 
-•	**Disk Space:** ≥100 GB (Docker image: ~68.5 GB + additional space for data and output)
+•	**Disk Space:** ≥100 GB (Docker image: ~57.3 GB + additional space for data and output)
 
