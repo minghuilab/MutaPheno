@@ -14,11 +14,11 @@ Docker Installation Guide
 docker pull minghuilab/mutapheno:v1
 ```
 
-•  Image size: 68.5 GB  
+•  Image size: 57.3 GB  
 •  Estimated download time (approximate):
 
-> 100 Mbps: ~90 min    
-> 1 Gbps: ~9 min  
+> 100 Mbps: ~76 min    
+> 1 Gbps: ~8 min  
 > (actual time depends on your network speed)
 
 ### 2.	Run the Docker Container and Activate Environment
@@ -113,10 +113,10 @@ This file contains the raw feature annotation data for each mutation.
 Example content:
 ```
 Original_Mutation	Canonical_Mutation	MutaPheno_score	MutaPheno_label
-P21359-2|R1276P	P21359_R1276P	0.532308	1
-P04637|H178Q	P04637_H178Q	0.563077	1
-P27986|G376R	P27986_G376R	0.830769	1
-P04637|I251S	P04637_I251S	0.889231	1
+P21359-2|R1276P	P21359_R1276P	0.593913043	1
+P04637|H178Q	P04637_H178Q	0.78	1
+P27986|G376R	P27986_G376R	0.740869565	1
+P04637|I251S	P04637_I251S	0.985652174	1
 ```
 •	**Original_Mutation:** The mutation identifier as provided in the input file, including isoform-specific or transcript-specific annotations (e.g., P21359-2|R1276P).   
 •	**Canonical_Mutation:** The standardized mutation mapped to the canonical protein sequence (e.g., P21359_R1276P).  
@@ -131,5 +131,5 @@ This file contains SHAP (SHapley Additive exPlanations) values for each mutation
 
 •	**RAM:** ≥32 GB recommended (≥16 GB minimal requirement)
 
-•	**Disk Space:** ≥100 GB (Docker image: ~68.5 GB + additional space for data and output)
+•	**Disk Space:** ≥100 GB (Docker image: ~57.3 GB + additional space for data and output)
 
